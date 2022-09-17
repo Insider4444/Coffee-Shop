@@ -1,0 +1,122 @@
+/* <!-- Coded By 4444op  --> */
+/* <!-- Project Start - 16/09/2022 11:41 AM --> */
+/* <!-- Finished Date - 17/09/2022 6:00 PM --> */
+/* <!-- Project Time - 7 Hours --> */
+.nav-link {
+  color: rgb(255 255 255);
+  font-weight: 400;
+  padding-left: 20px !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#favicon {
+  filter: invert();
+}
+
+#nav-top {
+  padding: 0 8%;
+}
+
+#navbarSupportedContent {
+  padding: 0 0 0 28%;
+}
+
+#hero {
+  background-image: url("/images/coffee.png");
+  background-size: cover;
+  background-position: 100%;
+  height: 100vh;
+}
+
+#quote-hero {
+  font-weight: 650;
+  font-size: 70px;
+}
+
+#desc-hero {
+  color: white;
+  font-size: 16px;
+}
+
+#i-icons {
+  font-size: 25px;
+}
+
+/* Nav bar underline Effect */
+.nav-link:hover,
+#i-icons:hover {
+  color: #ffc388 !important;
+  transition: 0.3s;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #ffc388;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc388;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  translate: 6px;
+  transform-origin: bottom left;
+}
+
+#con-form {
+  height: 452px !important;
+}
+
+#maps {
+  position: relative;
+  left: 1.5%;
+}
+
+#input-end,
+.input-group-text {
+  background-color: #cacaca;
+  border: 0;
+}
+
+.btn-outline-light {
+  --bs-btn-hover-bg: #ffab81 !important;
+}
+
+#input-end::placeholder {
+  font-size: auto;
+  color: #000000a4;
+}
+
+@media only screen and (max-width: 500px) {
+  #cof-2 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #hero {
+    background-position: 5150px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  #hero {
+    background-position: 2378px;
+  }
+}
+/* <!-- Coded By 4444op  --> */
+/* <!-- Project Start - 16/09/2022 11:41 AM --> */
+/* <!-- Finished Date - 17/09/2022 6:00 PM --> */
+/* <!-- Project Time - 7 Hours --> */
